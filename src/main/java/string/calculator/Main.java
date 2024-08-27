@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("We need to test the methods of the calculator\n" +
 
-                "Add: think of two numbers less than 1000");
+                "Multiply: think of two numbers less than 1000");
 
         Scanner scanner = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ public class Main {
 
         if (number1 < 1000 && number2 < 1000) {
             StringCalculator calculator = new StringCalculator();
-            int result = calculator.add(number1 + "," + number2);
+            int result = calculator.multiply(number1 + "," + number2);
             System.out.println("Result: " + result);
         } else {
             System.out.println("Both numbers must be less than 1000.");
